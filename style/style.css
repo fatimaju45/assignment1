@@ -1,18 +1,71 @@
 @import url('https://fonts.googleapis.com/css2?family=Azeret+Mono:ital,wght@0,100..900;1,100..900&display=swap');
 
 /*Banner section*/
+*{margin: 0%;
+padding: 0%;}
+.bg-color{ color: #FFFFFF;}
+.hero{height: 652px;}
 .banner{background-image: url('../images/portfolio\ bg.avif');
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 100%;
+    height: 650px;
     background-position:center ;
-left: 0;
-right: 0;
 margin: 0%; padding: 0%;
 display: flex;
 flex-direction: column;
 justify-content: center;
 align-items: center;}
 .banner-girl{width: 175px;
-height: 230px;}
+height: 230px;
+border-radius: 10px;
+}
+
+
+.header-title{ margin: 298 220 218 220 ;
+    text-align: center;
+     width: 950px; height: 130px;
+    font-size: 48px;
+font-weight: 800; 
+color: #0D1321; line-height:60px;
+}
+.header-subtitle{font-size: 16;
+font-weight: 400;
+width: 750px;
+line-height: 25px;
+color: #0D1321;
+text-align: center;
+}
+.color-btn{ font-size: 20px;
+    font-weight: 600;
+     background-color: #0D1321;
+color: #FFFFFF;
+padding: 21px 24px;
+border-radius: 8px;
+margin-top: 32px; margin-bottom: 44px;}
+.text-centre {text-align: center;}
+/*why web development*/
+.card-header{display: flex;
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+align-items: center;
+gap: 24px;}
+.card-title{ font-size: 32px;
+font-weight: 800;
+color: ##0D1321; margin-top: 154px;
+}
+
+.card-subtitle{font-size: 16;
+    font-weight: 400;
+    width: 750px;
+    line-height: 25px;
+    color: #0D1321;
+    text-align:center}
+
+.cards{back#0D1321ground-color:#0D132105 ;
+border-radius: 16px;
+padding: 80px 97px;
+}
+.text-centre{align-items: center;
+text-align: center;}
