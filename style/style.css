@@ -72,13 +72,12 @@ color: ##0D1321; margin-top: 44px;
 
 }
 
-}
 .card2-picture{width: 223px;
 height: 208px;}
 
 .card1{ display: flex;
-    box-sizing: border-box;
-    background-color: ;
+        box-sizing: border-box;
+
 
     justify-content:center;
     align-items: centers;
@@ -99,7 +98,7 @@ width: 370px;}
     text-align:left;opacity: 0.7;
     margin-top: 16px;
 }
-.card-btn{;
+.card-btn{
     margin-top: 32px;
     padding: 12px 20px;
     box-sizing: border-box;
@@ -108,4 +107,34 @@ width: 370px;}
     font-size: 20px;
     font-weight: 600;
 
+}
+.inspiration{width: 1140px;
+height: 664px;
+margin-top: 88px;
+}
+
+.ins-title{
+    font-size: 32px;
+    font-weight: 800;
+    margin: 20px;
+    text-align: center;
+}
+.ins-subtitle{
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 26px;
+    text-align: center;
+    opacity:0.7;
+    margin-bottom: 20px;
+
+
+}
+.video{ box-sizing: border-box;
+    border: 1px solid rgba(13, 19, 33, 0.2);
+    border-radius: 16px; padding: 32px 32px;
+    align-items: center;
+    
+
+}
+iframe{border-radius: 16px;
 }
