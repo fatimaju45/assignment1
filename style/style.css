@@ -4,7 +4,7 @@
 *{margin: 0%;
 padding: 0%;}
 .bg-color{ color: #FFFFFF;}
-.hero{height: 652px;}
+
 .banner{background-image: url('../images/portfolio\ bg.avif');
     background-repeat: no-repeat;
     background-size: cover;
@@ -157,3 +157,32 @@ border-radius: 16px; ;
     .target-link{ color: #0D1321;
     font-size: 16px;
 font-weight: 700;}
+.support-section{margin-top: 41px; align-items: center;
+    background-image: url('../images/handshake.jpg');
+    background-position:center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 1140px;
+    height: 314px;
+    border-radius: 16px;
+    padding: 64px 48px;
+}
+.need{  justify-content:center; display: block; 
+    border: 1px solid; box-sizing: border-box; margin: 40px; border-style: none;
+}
+.input{width: 100%;
+display: block;}
+.footer-section{ margin-top: 80px;
+    
+    padding:32px 300px;
+    border: 1px solid none;
+    border-radius: 16px;
+    display: flex;
+    width: 1400px;
+    height: 100px;
+    align-items:center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+
+}
